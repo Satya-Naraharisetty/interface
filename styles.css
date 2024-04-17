@@ -5,8 +5,7 @@
 	padding: 0;
   }
   
-  #left,
-  #right {
+  #left, #right {
 	box-sizing: border-box;
 	overflow-y: scroll;
 	margin: 30px;
