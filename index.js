@@ -10,7 +10,7 @@ formFields.forEach((field) => {
 });
 
 function updateJsonDisplay() {
-  rightContainer.innerHTML = JSON.stringify({ ...jsonObject }, null, 2);
+  rightContainer.innerHTML = JSON.stringify({ ...jsonObject }, null, 4);
 }
 
 const jsonObject = {};
